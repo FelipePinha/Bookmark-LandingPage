@@ -5,8 +5,7 @@ import { BookmarkLogo } from "./bookmark-logo";
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
 import { useState } from "react";
-
-const navbarItems = ["Features", "Pricing", "Contact"];
+import { navbarItems } from "./helpers/navbar-items";
 
 export function MobileNavbar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
