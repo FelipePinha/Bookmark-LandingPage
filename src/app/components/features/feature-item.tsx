@@ -28,7 +28,11 @@ export function FeatureItem({
           <p className="w-full md:w-3/4 text-sm md:text-base text-gray-400">
             {description}
           </p>
-          <Button size="lg" className="bg-indigo-600">
+          <Button
+            variant="secondary"
+            size="lg"
+            className="bg-indigo-600 border border-indigo-600 hover:bg-white text-white hover:text-indigo-600"
+          >
             More info
           </Button>
         </div>
