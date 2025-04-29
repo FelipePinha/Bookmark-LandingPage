@@ -6,7 +6,7 @@ export function HeroText() {
       <h1 className="font-bold text-3xl md:text-5xl text-zinc-800">
         A Simple Bookmark Manager
       </h1>
-      <p>
+      <p className="text-gray-400">
         A clean and Simple interface to organize your favorite websites. Open a
         new browser tab and see your sites load instantly. Try it for free.
       </p>

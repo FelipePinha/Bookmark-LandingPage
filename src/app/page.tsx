@@ -1,3 +1,4 @@
+import { Features } from "./components/features";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto">
         <Header />
         <Hero />
+        <Features />
       </div>
     </div>
   );
