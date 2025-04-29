@@ -1,3 +1,5 @@
+import { FeatureTabs } from "./features-tabs";
+
 export function Features() {
   return (
     <section className="mt-16">
@@ -9,6 +11,7 @@ export function Features() {
           them on the go.
         </p>
       </div>
+      <FeatureTabs />
     </section>
   );
 }
