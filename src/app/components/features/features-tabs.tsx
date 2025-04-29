@@ -27,11 +27,26 @@ const tabs = [
 
 export function FeatureTabs() {
   return (
-    <Tabs className="mt-10">
+    <Tabs defaultValue="bookmarking" className="mt-10">
       <TabsList className="grid w-4/5 mx-auto grid-cols-1 md:grid-cols-3 gap-y-3 mb-10">
-        <TabsTrigger value="bookmarking">Simple Bookmarking</TabsTrigger>
-        <TabsTrigger value="searching">Speedy Searching</TabsTrigger>
-        <TabsTrigger value="sharing">Easy Sharing</TabsTrigger>
+        <TabsTrigger
+          className="hover:text-red-400 cursor-pointer"
+          value="bookmarking"
+        >
+          Simple Bookmarking
+        </TabsTrigger>
+        <TabsTrigger
+          className="hover:text-red-400 cursor-pointer"
+          value="searching"
+        >
+          Speedy Searching
+        </TabsTrigger>
+        <TabsTrigger
+          className="hover:text-red-400 cursor-pointer"
+          value="sharing"
+        >
+          Easy Sharing
+        </TabsTrigger>
       </TabsList>
       {tabs.map((tab) => (
         <TabsContent key={tab.value} value={tab.value}>
