@@ -2,6 +2,7 @@ import { Extensions } from "./components/extensions";
 import { Features } from "./components/features";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { Questions } from "./components/questions";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Features />
         <Extensions />
+        <Questions />
       </div>
     </div>
   );
