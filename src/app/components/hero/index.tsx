@@ -3,7 +3,7 @@ import { HeroText } from "./hero-text";
 
 export function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-center mt-16">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-center mt-24">
       <HeroText />
       <HeroImage />
     </section>

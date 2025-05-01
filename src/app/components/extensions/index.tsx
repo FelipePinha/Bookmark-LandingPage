@@ -22,7 +22,7 @@ const extensions = [
 
 export function Extensions() {
   return (
-    <section className="flex flex-col items-center mt-16 space-y-3">
+    <section className="flex flex-col items-center mt-24 space-y-3">
       <h2 className="text-2xl md:text-4xl font-bold text-zinc-800">
         Download the extension
       </h2>

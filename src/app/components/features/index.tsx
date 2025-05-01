@@ -2,7 +2,7 @@ import { FeatureTabs } from "./features-tabs";
 
 export function Features() {
   return (
-    <section className="mt-16">
+    <section className="mt-24">
       <div className="text-center space-y-3 w-full md:w-1/2 mx-auto">
         <h2 className="text-4xl font-bold text-zinc-800">Features</h2>
         <p className="text-gray-400">

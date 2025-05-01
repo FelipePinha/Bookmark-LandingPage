@@ -3,7 +3,7 @@ import { Accordions } from "./accordions";
 
 export function Questions() {
   return (
-    <section className="mt-16 flex flex-col items-center space-y-10">
+    <section className="mt-24 flex flex-col items-center space-y-10">
       <div className="space-y-2 text-center px-3">
         <h2 className="text-2xl md:text-4xl text-zinc-800">
           Frequently Asked Questions
