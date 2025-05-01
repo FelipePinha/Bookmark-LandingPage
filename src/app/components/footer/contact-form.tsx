@@ -5,12 +5,13 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { toast } from "sonner";
 
 const contactFormSchema = z.object({
   email: z.string().email("Whoops, make sure it's an email"),
 });
 
-type ContactFormSchema = z.infer<typeof contactFormSchema>;
+export type ContactFormSchema = z.infer<typeof contactFormSchema>;
 
 export function ContactForm() {
   const {
@@ -22,7 +23,15 @@ export function ContactForm() {
   });
 
   const onFormSubmit = (formData: ContactFormSchema) => {
-    // Handle form submission logic here
+    toast(`Email sent to ${formData.email}!`, {
+      style: {
+        background: "#fff",
+        border: "3px solid oklch(70.4% 0.191 22.216)",
+        color: "oklch(70.4% 0.191 22.216)",
+        letterSpacing: "1.5px",
+      },
+      position: "top-left",
+    });
   };
 
   return (
