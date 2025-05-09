@@ -11,18 +11,18 @@ export function HeroText() {
         new browser tab and see your sites load instantly. Try it for free.
       </p>
 
-      <div className="flex items-center gap-3">
+      <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3">
         <Button
           variant="outline"
           size="lg"
-          className="bg-indigo-600 hover:bg-white border-2   border-indigo-600 text-white hover:text-indigo-600 transition-colors"
+          className="w-full sm:w-52 bg-indigo-600 hover:bg-white border-2   border-indigo-600 text-white hover:text-indigo-600 transition-colors"
         >
           Get it on Chrome
         </Button>
         <Button
           variant="outline"
           size="lg"
-          className="border-2 border-white hover:border-gray-600 text-gray-600 font-bold shadow-md transition-colors"
+          className="w-full sm:w-52 border-2 border-white hover:border-gray-600 text-gray-600 font-bold shadow-md transition-colors"
         >
           Get it on Firefox
         </Button>
